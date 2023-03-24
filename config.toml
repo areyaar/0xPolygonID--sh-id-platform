@@ -1,5 +1,5 @@
 ServerPort = 3001
-ServerUrl = "http://18.234.169.100"
+ServerUrl = "http://18.234.169.100:3001"
 NativeProofGenerationEnabled = true
 PublishingKeyPath = "pbkey"
 OnChainCheckStatusFrecuency = "30s"
@@ -20,7 +20,7 @@ Mode = 2
 
 [KeyStore]
 Address="http://18.234.169.100:8200/"
-Token=" hvs.hwmjG9WacqW5Yqa3MjUqZfPL"
+Token="hvs.hwmjG9WacqW5Yqa3MjUqZfPL"
 PluginIden3MountPath="iden3"
 
 [ReverseHashService]
