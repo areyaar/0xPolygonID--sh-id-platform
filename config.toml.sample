@@ -20,7 +20,7 @@ Mode = 2
 
 [KeyStore]
 Address="http://18.234.169.100:8200/"
-Token="hvs.dfsb36ltNU75GO6GH2fARLPj"
+Token=" hvs.hwmjG9WacqW5Yqa3MjUqZfPL"
 PluginIden3MountPath="iden3"
 
 [ReverseHashService]
