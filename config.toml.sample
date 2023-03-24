@@ -1,5 +1,5 @@
 ServerPort = 3001
-ServerUrl = "<placeholder(public server url)>"
+ServerUrl = "http://18.234.169.100:3001"
 NativeProofGenerationEnabled = true
 PublishingKeyPath = "pbkey"
 OnChainCheckStatusFrecuency = "30s"
@@ -8,7 +8,7 @@ OnChainCheckStatusFrecuency = "30s"
 Url="postgres://polygonid:polygonid@localhost:5432/platformid?sslmode=disable"
 
 [Cache]
-RedisUrl="redis://@localhost:6380/1"
+RedisUrl="redis://@18.234.169.100:6380/1"
 
 [HTTPBasicAuth]
 User = "user"
@@ -19,16 +19,16 @@ Level = -4
 Mode = 2
 
 [KeyStore]
-Address="http://localhost:8200/"
-Token="<placeholder(hvs.xxxxx from infrastructure/local/.vault/data/init.out file)>"
+Address="http://18.234.169.100:8200/"
+Token="hvs.dfsb36ltNU75GO6GH2fARLPj"
 PluginIden3MountPath="iden3"
 
 [ReverseHashService]
-URL="http://localhost:3001"
+URL="http://18.234.169.100:3001"
 Enabled= false
 
 [Ethereum]
-URL="<placeholder(https://polygon-mumbai.g.alchemy.com/v2/xxxxxxxxx)>"
+URL="https://rpc-mumbai.maticvigil.com"
 ContractAddress="0x134B1BE34911E39A8397ec6289782989729807a4"
 DefaultGasLimit=600000
 ConfirmationTimeout="600s"
@@ -41,7 +41,7 @@ WaitReceiptCycleTime="30s"
 WaitBlockCycleTime="30s"
 
 [Prover]
-ServerURL="http://localhost:8002"
+ServerURL="http://18.234.169.100:8002"
 ResponseTimeout="600s"
 
 [Circuit]
